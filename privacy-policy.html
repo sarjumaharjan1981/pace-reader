@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How Pace Reader uses page text locally and saves reading preferences.">
+  <title>Pace Reader — Privacy policy</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f8f8f1;color:#24382e;font:16px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:800px;margin:0 auto;padding:55px 25px 70px}.brand{display:flex;align-items:center;gap:12px;font-weight:750;font-size:18px}.mark{display:grid;place-items:center;background:#245b43;color:#e8f2a6;border-radius:10px;width:36px;height:36px;font-size:28px}h1{font:400 44px/1.2 Georgia,serif;letter-spacing:-1px;margin:35px 0 8px}h2{font-size:19px;line-height:1.4;margin:28px 0 9px}p{margin:10px 0}.date{font-size:13px;color:#6b7969}.summary{margin:28px 0;background:#e9efdf;border-left:4px solid #6f8e43;padding:17px 20px;border-radius:0 10px 10px 0}a{color:#245b43;text-underline-offset:3px}li{padding-left:3px;margin:7px 0}footer{margin-top:40px;border-top:1px solid #dce3d4;padding-top:18px;color:#6b7969;font-size:13px}@media(max-width:500px){main{padding-top:30px}h1{font-size:36px}}
+  </style>
+</head>
+<body>
+<main>
+  <div class="brand"><span class="mark" aria-hidden="true">›</span>Pace Reader</div>
+  <h1>Privacy policy</h1>
+  <p class="date">Last updated October 10, 2026 · Applies to extension version 1.0.0</p>
+  <div class="summary"><strong>Page text stays in your tab.</strong> Pace Reader processes the text you choose to read locally. The extension saves only your reading preferences and sends no data to the developer or third parties.</div>
+
+  <h2>Purpose and activation</h2>
+  <p>Pace Reader provides speed-reading practice by highlighting one word at a time in a web page’s main content or a selected passage at your chosen pace. Clicking the toolbar icon opens the controls and a notice about local processing. Clicking Start reading, Rescan page, or Read selection begins a text scan. The extension does not automatically scan every page you visit.</p>
+
+  <h2>Information processed locally</h2>
+  <p>The reader uses text from the current page, text you select, and the page title. It uses this information to find the passage, highlight words, show the current word and source, and estimate the remaining time. The text, title, and current reading position are held in memory for the reading session. They are not saved as reading history or uploaded to a server.</p>
+  <p>Page text can contain personal or sensitive information. If you choose to read such a passage, it is processed locally in the same way as other page text. The extension does not separately request personal details, credentials, payment information, or access to your browsing history. It excludes forms and editable text fields from its extraction.</p>
+
+  <h2>Preferences saved on your device</h2>
+  <p>Pace Reader saves your target words per minute, whether to follow the highlight, and whether to pause at punctuation. These values are stored using Chrome’s local extension storage under the key <code>paceReaderSettings</code>. The extension does not use Chrome’s synchronized storage for these preferences.</p>
+  <p>You can change these values in the reader. Closing the reader ends that reading session. Uninstalling the extension removes its local extension storage. There is no server-side account or reading record to delete.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>activeTab:</strong> temporary access to the page where you click the toolbar icon, so the reading controls and highlighting can operate there.</li>
+    <li><strong>scripting:</strong> runs the bundled reader code on that page.</li>
+    <li><strong>storage:</strong> remembers your three reading preferences locally.</li>
+  </ul>
+  <p>The extension does not request persistent access to all websites, your browsing history, cookies, or bookmarks.</p>
+
+  <h2>Transmission, sharing, and monetization</h2>
+  <p>The extension makes no network requests and transmits no page text, titles, preferences, or reading progress. There are no analytics, tracking services, remote scripts, advertisements, accounts, subscriptions, or payment integrations in this version. The developer does not receive or sell the text you read or your reading settings.</p>
+  <p>Pace Reader’s use of information received from Google APIs adheres to the Chrome Web Store User Data Policy, including its Limited Use requirements. Information is used only for the disclosed reading feature, without third-party transfer, advertising use, creditworthiness assessment, or lending use.</p>
+
+  <h2>This policy page and support</h2>
+  <p>This page is separate from the extension. Its hosting provider may receive normal page-request information, such as your IP address, when you open it. If hosted on GitHub Pages, GitHub logs visitor IP addresses for security; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub’s privacy statement</a>. The extension does not send reading data to the policy-page host.</p>
+  <p id="contact">Pace Reader is offered by Ignision Labs. For privacy or support questions, contact <a href="mailto:ignisionlab@gmail.com">ignisionlab@gmail.com</a>. If you voluntarily send a support message, Ignision Labs receives the information you include; avoid sending sensitive passage text unless it is needed to explain your issue.</p>
+
+  <h2>Changes</h2>
+  <p>If an extension update changes these data practices, this policy and the Chrome Web Store disclosures will be updated to describe the new behavior. This policy describes version 1.0.0.</p>
+
+  <footer>Pace Reader · Free reading practice · <a href="practice.html">Open the practice passage</a></footer>
+</main>
+</body>
+</html>
